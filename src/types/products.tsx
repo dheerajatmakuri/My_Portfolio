@@ -4,7 +4,6 @@ export type Product = {
   title: string;
   description: string;
   thumbnail: StaticImageData | string; // Allow both StaticImageData and string
-  images: (StaticImageData | string)[];
   href: string;
   slug?: string;
   stack?: string[];

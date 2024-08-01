@@ -34,8 +34,8 @@ export const Products = () => {
                 src={product.thumbnail}
                 alt="thumbnail"
                 height={200}
-                width={250}
-                className="rounded-md"
+                width={200}
+                className="rounded-md border-4" style={{ borderColor: 'grey' }}
               />
               <div className="flex flex-col justify-between flex-1">
                 <div>
