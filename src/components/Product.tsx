@@ -6,6 +6,7 @@ import { Heading } from "./Heading";
 import { Paragraph } from "./Paragraph";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import ArrowLeftIcon from "@heroicons/react/solid/ArrowLeftIcon";
 
 export const SingleProduct = ({ product }: { product: Product }) => {
   const [activeImage, setActiveImage] = useState<StaticImageData | string>(
@@ -13,6 +14,27 @@ export const SingleProduct = ({ product }: { product: Product }) => {
   );
   return (
     <div className="py-10">
+      <Link
+        type="button"
+        href="/projects" // Adjust the href to the correct path
+        aria-label="Go back to previous page"
+        className="group mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 transition"
+      >
+        <ArrowLeftIcon className="h-4 w-4 stroke-zinc-500 transition group-hover:stroke-zinc-700" />
+      </Link>
+      <div className="flex lg:flex-row justify-between items-center flex-col mt-100">
+      <Heading className="font-black mb-2 pb-1"> {product.title}</Heading>
+      <div className="flex space-x-2 md:mb-1 mt-2 md:mt-">
+          {product.stack?.map((stack: string) => (
+            <span
+              key={stack}
+              className="text-xs md:text-xs lg:text-xs bg-gray-50 px-2 py-1 rounded-sm text-secondary"
+            >
+              {stack}
+            </span>
+          ))}
+        </div>
+      </div>
       <motion.div
         initial={{
           opacity: 0,
@@ -37,42 +59,14 @@ export const SingleProduct = ({ product }: { product: Product }) => {
         />
         <div className="absolute bottom-0 bg-white h-40 w-full [mask-image:linear-gradient(to_bottom,transparent,white)]" />
       </motion.div>
-      <div className="flex flex-row justify-center my-8 flex-wrap">
-        {product.images.map((image, idx) => (
-          <button
-            onClick={() => setActiveImage(image)}
-            key={`image-thumbnail-${idx}`}
-          >
-            <Image
-              src={image}
-              alt="product thumbnail"
-              height="1000"
-              width="1000"
-              className="h-14 w-16 md:h-40 md:w-60 object-cover object-top mr-4 mb-r border rounded-lg border-neutral-100"
-            />
-          </button>
-        ))}
-      </div>
-      <div className="flex lg:flex-row justify-between items-center flex-col mt-20">
-        <Heading className="font-black mb-2 pb-1"> {product.title}</Heading>
-        <div className="flex space-x-2 md:mb-1 mt-2 md:mt-0">
-          {product.stack?.map((stack: string) => (
-            <span
-              key={stack}
-              className="text-xs  md:text-xs lg:text-xs bg-gray-50 px-2 py-1 rounded-sm text-secondary"
-            >
-              {stack}
-            </span>
-          ))}
-        </div>
-      </div>
+      <br />
       <div>
-        <Paragraph className="max-w-xl mt-4">{product.description}</Paragraph>
+        <Paragraph>{product.description}</Paragraph>
       </div>
       <div className="prose prose-sm md:prose-base max-w-none text-neutral-600">
         {product?.content}
       </div>
-
+      <br />
       <a
         href={product.href}
         target="__blank"

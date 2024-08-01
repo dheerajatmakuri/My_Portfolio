@@ -30,6 +30,7 @@ export const Blogs = ({ blogs }: { blogs: Blog[] }) => {
             className="relative my-10 block"
             onMouseEnter={() => setHovered(blog.slug)}
             onMouseLeave={() => setHovered(null)}
+            onClick={(e) => e.preventDefault()} // Prevent navigation
           >
             <AnimatePresence mode="wait">
               {hovered === blog.slug && (
@@ -46,11 +47,10 @@ export const Blogs = ({ blogs }: { blogs: Blog[] }) => {
                   }}
                   exit={{
                     opacity: 0,
-
                     scaleX: 0.95,
                     scaleY: 0.95,
                   }}
-                  className="absolute z-0 pointer-events-none bg-gray-50 inset-0 h-full w-full   rounded-md "
+                  className="absolute z-0 pointer-events-none bg-gray-50 inset-0 h-full w-full rounded-md"
                 />
               )}
             </AnimatePresence>

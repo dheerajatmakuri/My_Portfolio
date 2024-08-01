@@ -10,8 +10,8 @@ import { motion } from "framer-motion";
 
 export const Products = () => {
   return (
-    <div>
-      <div className="grid grid-cols-1  gap-10">
+    <div className="container mx-auto px-4">
+      <div className="grid grid-cols-1 gap-10">
         {products.map((product: Product, idx: number) => (
           <motion.div
             key={product.href}
@@ -28,24 +28,24 @@ export const Products = () => {
             <Link
               href={product.slug ? `/projects/${product.slug}` : product.href}
               key={product.href}
-              className="group flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 hover:bg-gray-50 rounded-2xl transition duration-200 pt-4"
+              className="group flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 hover:bg-gray-50 rounded-2xl transition duration-200 p-4"
             >
               <Image
                 src={product.thumbnail}
                 alt="thumbnail"
-                height="200"
-                width="200"
+                height={200}
+                width={250}
                 className="rounded-md"
               />
-              <div className="flex flex-col justify-between">
+              <div className="flex flex-col justify-between flex-1">
                 <div>
                   <Heading
                     as="h4"
-                    className="font-black text-lg md:text-lg lg:text-lg "
+                    className="font-black text-lg md:text-lg lg:text-lg"
                   >
                     {product.title}
                   </Heading>
-                  <Paragraph className="text-sm md:text-sm lg:text-sm mt-2 max-w-xl">
+                  <Paragraph className="text-sm md:text-sm lg:text-sm mt-2 max-w-xl mb-4">
                     {product.description}
                   </Paragraph>
                 </div>
@@ -53,7 +53,7 @@ export const Products = () => {
                   {product.stack?.map((stack: string) => (
                     <span
                       key={stack}
-                      className="text-xs  md:text-xs lg:text-xs bg-gray-50 px-2 py-1 rounded-sm text-secondary"
+                      className="text-xs md:text-xs lg:text-xs bg-gray-50 px-2 py-1 rounded-sm text-secondary"
                     >
                       {stack}
                     </span>

@@ -4,8 +4,6 @@ import React from "react";
 import { Paragraph } from "./Paragraph";
 import { Heading } from "./Heading";
 import {
-  IconCheck,
-  IconCheckbox,
   IconCircleCheckFilled,
 } from "@tabler/icons-react";
 
@@ -32,7 +30,7 @@ export const WorkHistory = () => {
               {item.description}
             </Paragraph>
 
-            {item.responsibilities.map((responsibility, index) => (
+            {item.responsibilities.map((responsibility) => (
               <Step key={responsibility}>{responsibility}</Step>
             ))}
           </div>

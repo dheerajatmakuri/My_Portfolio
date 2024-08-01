@@ -1,130 +1,41 @@
-import sidefolioAceternity from "public/images/sidefolio-aceternity-2.png";
-import sidefolioAceternity2 from "public/images/sidefolio-aceternity-2.png";
-import sidefolioAlgochurn from "public/images/sidefolio-algochurn.png";
-import sidefolioAlgochurn2 from "public/images/sidefolio-algochurn.png";
-import sidefolioMoonbeam from "public/images/sidefolio-moonbeam.png";
-import sidefolioMoonbeam2 from "public/images/sidefolio-moonbeam-2.png";
-import sidefolioTailwindMasterKit from "public/images/sidefolio-tailwindmasterkit.png";
-import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterkit-2.png";
+import Link from "next/link";
+import { ArrowLeftIcon } from "@heroicons/react/solid"; // Adjust the import based on your icon library
 
 export const products = [
   {
-    href: "https://aceternity.com",
-    title: "Aceternity",
+    href: "https://utdallas.vercel.app/",
+    title: "UTD Explorer",
     description:
-      "A design and development studio that focuses on building quality apps.",
-    thumbnail: sidefolioAceternity,
-    images: [sidefolioAceternity, sidefolioAceternity2],
-    stack: ["Nextjs", "Tailwindcss"],
+      "A responsive React application showcasing the University of Texas at Dallas. Features include detailed program information, a campus gallery, student testimonials, and a contact form. Designed for seamless use across all devices. ",
+    thumbnail: "/images/utdfront.png", // Replace with your image path
+    images: ["/path/to/your/image1.png", "/path/to/your/image2.png"], // Replace with your image paths
+    stack: ["Reactjs", "Tailwindcss"],
     slug: "aceternity",
-    content: (
-      <div>
-        <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
-        </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
-      </div>
-    ),
   },
   {
     href: "https://algochurn.com",
     title: "Algochurn",
     description:
       "Practice for technical interviews with hands on coding challenges.",
-    thumbnail: sidefolioAlgochurn,
-    images: [sidefolioAlgochurn, sidefolioAlgochurn2],
+    thumbnail: "/images/utdfront.png", // Replace with your image path
+    images: ["/path/to/your/image3.png", "/path/to/your/image4.png"], // Replace with your image paths
     stack: ["Nextjs", "Tailwindcss"],
     slug: "algochurn",
     content: (
       <div>
-        <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
-        </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
-      </div>
-    ),
-  },
-  {
-    href: "https://gomoonbeam.com",
-    title: "Moonbeam",
-    description:
-      "Never write from scratch again with Moonbeam, your AI first writing tool",
-    thumbnail: sidefolioMoonbeam,
-    images: [sidefolioMoonbeam, sidefolioMoonbeam2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "moonbeam",
-    content: (
-      <div>
-        <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
-        </p>
+        <Link
+          type="button"
+          href="/projects" // Adjust the href to the correct path
+          aria-label="Go back to previous page"
+          className="group mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 transition"
+        >
+          <ArrowLeftIcon className="h-4 w-4 stroke-zinc-500 transition group-hover:stroke-zinc-700" />
+        </Link>
+        <p>Sit eiusmod ex mol</p>
         <p>
           Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
-      </div>
-    ),
-  },
-  {
-    href: "https://tailwindmasterkit.com",
-    title: "Tailwind Master Kit",
-    description:
-      "A beautiful and comprehensive Tailwind CSS components library for building modern websites and applications.",
-    thumbnail: sidefolioTailwindMasterKit,
-    images: [sidefolioTailwindMasterKit, sidefolioTailwindMasterKit2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "tailwindmasterkit",
-    content: (
-      <div>
-        <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+          Lorem tempor ull
         </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
       </div>
     ),
   },
