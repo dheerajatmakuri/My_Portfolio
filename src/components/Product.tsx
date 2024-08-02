@@ -81,7 +81,7 @@ export const SingleProduct = ({ product }: { product: Product }) => {
           fill="none"
           stroke="currentColor"
           strokeWidth="2"
-          stroke-linecap="round"
+          strokeLinecap="round"
           strokeLinejoin="round"
           className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform"
         >

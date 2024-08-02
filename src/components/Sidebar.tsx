@@ -9,7 +9,7 @@ import { Heading } from "./Heading";
 import { socials } from "@/constants/socials";
 import { Badge } from "./Badge";
 import { AnimatePresence, motion } from "framer-motion";
-import { IconLayoutSidebarRightCollapse } from "@tabler/icons-react";
+import { IconLayoutSidebarLeftCollapse } from "@tabler/icons-react";
 import { isMobile } from "@/lib/utils";
 
 export const Sidebar = () => {
@@ -24,7 +24,7 @@ export const Sidebar = () => {
             animate={{ x: 0 }}
             transition={{ duration: 0.2, ease: "linear" }}
             exit={{ x: -200 }}
-            className="px-6  z-[100] py-10 bg-neutral-100 max-w-[14rem] lg:w-fit  fixed lg:relative  h-screen left-0 flex flex-col justify-between"
+            className="px-6 z-[100] py-10 bg-neutral-100 max-w-[14rem] lg:w-fit fixed lg:relative h-screen left-0 flex flex-col justify-between"
           >
             <div className="flex-1 overflow-auto">
               <SidebarHeader />
@@ -37,12 +37,28 @@ export const Sidebar = () => {
         )}
       </AnimatePresence>
       <button
-        className="fixed lg:hidden bottom-4 right-4 h-8 w-8 border border-neutral-200 rounded-full backdrop-blur-sm flex items-center justify-center z-50"
+        className="fixed top-4 right-4 h-8 w-8 border border-neutral-200 rounded-full backdrop-blur-sm flex items-center justify-center z-50"
         onClick={() => setOpen(!open)}
       >
-        <IconLayoutSidebarRightCollapse className="h-4 w-4 text-secondary" />
+        <IconLayoutSidebarLeftCollapse className="h-4 w-4 text-secondary" />
+      </button>
+      <button
+        className="fixed bottom-4 right-4 h-8 w-8 border border-neutral-200 rounded-full backdrop-blur-sm flex items-center justify-center z-50"
+        onClick={() => setOpen(!open)}
+      >
+        <IconLayoutSidebarLeftCollapse className="h-4 w-4 text-secondary" />
       </button>
     </>
+  );
+};
+
+const SidebarHeader = () => {
+  return (
+    <div className="flex space-x-2">
+      <div className="flex text-sm flex-col">
+        <p className="font-bold text-primary">Dheeraj Atmakuri</p>
+      </div>
+    </div>
   );
 };
 
@@ -102,14 +118,3 @@ export const Navigation = ({
     </div>
   );
 };
-
-const SidebarHeader = () => {
-  return (
-    <div className="flex space-x-2">
-      <div className="flex text-sm flex-col">
-        <p className="font-bold text-primary">Dheeraj Atmakuri</p>
-      </div>
-    </div>
-  );
-};
-
