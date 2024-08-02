@@ -8,6 +8,7 @@ export default function About() {
         <Paragraph className="mt-4">
           Hey there, I'm Dheeraj Atmakuri 👋
         </Paragraph>
+
         <Paragraph className="mt-4">
           I’m pursuing a{" "}
           <span className="text-blue-500">
