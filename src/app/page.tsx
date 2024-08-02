@@ -3,7 +3,6 @@ import { Heading } from "@/components/Heading";
 import { Highlight } from "@/components/Highlight";
 import { Paragraph } from "@/components/Paragraph";
 import { Products } from "@/components/Products";
-import { TechStack } from "@/components/TechStack";
 
 export default function Home() {
   return (
@@ -23,7 +22,6 @@ export default function Home() {
       >What I've been working on
       </Heading>
       <Products />
-      <TechStack />
     </Container>
   );
 }

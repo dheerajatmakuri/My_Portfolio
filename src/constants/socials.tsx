@@ -2,7 +2,8 @@ import {
   IconBrandLinkedin,
   IconBrandGithub,
   IconPresentationAnalytics,
-  IconLocationBolt
+  IconLocationBolt,
+  IconCloud,
 } from "@tabler/icons-react";
 
 
@@ -24,7 +25,12 @@ export const socials = [
     icon: IconPresentationAnalytics,
   },
   {
-    href: "https://public.tableau.com/app/profile/dheeraj.atmakuri",
+    href: "https://www.salesforce.com/trailblazer/datmakuri",
+    label: "Trailhead",
+    icon: IconCloud,
+  },
+  {
+    href: "",
     label: "Resume",
     icon: IconLocationBolt,
   },

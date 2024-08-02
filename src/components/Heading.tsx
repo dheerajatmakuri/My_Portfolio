@@ -3,7 +3,6 @@ import React from "react";
 import localFont from "next/font/local";
 import { twMerge } from "tailwind-merge";
 
-// Font files can be colocated inside of `app`
 const CalSans = localFont({
   src: [{ path: "../../fonts/Outfit-VariableFont_wght.ttf" }],
   display: "swap",

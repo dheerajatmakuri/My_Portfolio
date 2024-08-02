@@ -18,7 +18,7 @@ export const products = [
     slug: "utdexplorer",
   },
   {
-    href: "https://public.tableau.com/app/profile/dheeraj.atmakuri",
+    href: "https://public.tableau.com/views/Blinkit_17225251155680/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
     title: "BLINK IT Grocery Delivery App Analysis",
     description:
     "This responsive dashboard for the BLINKIT Grocery Delivery App highlights ₹1.21M in total sales, an avg rating of 4.39, and snacks as the top category with 8.52K items. Sales in 2019 at over ₹700K, with Zone A leading at ₹423.15K. ",
@@ -45,7 +45,7 @@ export const products = [
     slug: "netflix",
   },
   {
-    href: "https://public.tableau.com/app/profile/dheeraj.atmakuri",
+    href: "https://public.tableau.com/views/Netflix_Data_Analysis_17184481523410/NETFLIXDataAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
     title: "Netflix Data Analysis",
     description:
       "This Tableau dashboard analyzes Netflix's catalog, highlighting global distribution, genre breakdown, ratings, and yearly trends. It reveals top content-producing countries, leading genres offering insights into Netflix's strategy.",
@@ -54,7 +54,7 @@ export const products = [
     slug: "netflix",
   },
   {
-    href: "https://public.tableau.com/app/profile/dheeraj.atmakuri",
+    href: "https://public.tableau.com/views/WorkplaceMobilityvs_COVID-19CasesinTexas/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
     title: "Texas Mobility Reports Anaysis Using Tableau",
     description:
       "This project examines the impact of COVID-19 policies on human mobility in Texas counties using Google's anonymized data. It aims to understand behavioral changes due to these measures, informing future policy decisions.",
