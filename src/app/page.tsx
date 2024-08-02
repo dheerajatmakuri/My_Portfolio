@@ -14,7 +14,7 @@ export default function Home() {
 
       <br />
       <Paragraph className="mb-4">
-        I'm a versatile IT professional with expertise in{" "}
+        I am a versatile IT professional with expertise in{" "}
         <Highlight>Salesforce, Python, DevOps and Data Engineering</Highlight>.
         I love developing innovative solutions and web apps that drive business
         growth and impact millions of lives.
@@ -30,7 +30,7 @@ export default function Home() {
         as="h2"
         className="font-black text-xl md:text-1.5xl lg:text-3xl mt-7 mb-4"
       >
-        What I've been working on
+        What I&apos;have been working on
       </Heading>
       <Products />
     </Container>
