@@ -1,13 +1,10 @@
 "use client";
 import { Paragraph } from "@/components/Paragraph";
-import Image from "next/image";
-
-import { motion } from "framer-motion";
 
 export default function About() {
   return (
     <div>
-      <div className="max-w-4xl">
+      <div className="max-w-5xl">
         <Paragraph className="mt-4">
           Hey there, I'm Dheeraj Atmakuri 👋
         </Paragraph>
@@ -33,7 +30,7 @@ export default function About() {
         <Paragraph className="mt-4">
           <strong>Technical Skills:</strong>
         </Paragraph>
-        <Paragraph className="mt-4">
+        <div className="text-sm lg:text-base font-normal text-secondary mt-4">
           <ul>
             <li>
               <strong>Salesforce:</strong> Sales Cloud, Service Cloud, Experience Cloud
@@ -41,14 +38,14 @@ export default function About() {
             <li><strong>Programming Languages:</strong> Python, JavaScript</li>
             <li><strong>Database Technologies:</strong> MongoDB, MySQL</li>
             <li><strong>Operating Systems:</strong> Windows, Linux</li>
-            <li><strong>Cloud:</strong>  Amazon AWS (EC2,IAM, Amplify)</li>
+            <li><strong>Cloud:</strong> Amazon AWS (EC2, IAM, Amplify)</li>
             <li><strong>Front-End Technologies:</strong> HTML, CSS, JavaScript, ReactJs</li>
             <li><strong>Visualization Tools:</strong> Tableau, Power BI</li>
           </ul>
-        </Paragraph>
+        </div>
         <Paragraph className="mt-4">
-        Let’s Connect
-        I’m eager to discuss how I can contribute to your organization’s success. Feel free to reach out to me at dxa230020@utdallas.edu or connect with me on LinkedIn. I look forward to the possibility of working together.
+          Let’s Connect
+          I’m eager to discuss how I can contribute to your organization’s success. Feel free to reach out to me at dxa230020@utdallas.edu or connect with me on LinkedIn. I look forward to the possibility of working together.
         </Paragraph>
       </div>
     </div>

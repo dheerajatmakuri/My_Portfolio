@@ -1,9 +1,8 @@
 "use client";
 import { navlinks } from "@/constants/navlinks";
 import { Navlink } from "@/types/navlink";
-import Image from "next/image";
 import Link from "next/link";
-import { useRouter, usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 import React, { useState } from "react";
 import { twMerge } from "tailwind-merge";
 import { Heading } from "./Heading";
@@ -32,7 +31,7 @@ export const Sidebar = () => {
               <Navigation setOpen={setOpen} />
             </div>
             <div onClick={() => isMobile() && setOpen(false)}>
-              <Badge href="/resume" text="Read Resume" />
+              <Badge href="/workexperience" text="Work Experience" />
             </div>
           </motion.div>
         )}
@@ -85,6 +84,8 @@ export const Navigation = ({
         <Link
           key={link.href}
           href={link.href}
+          target="_blank"
+          rel="noopener noreferrer"
           className={twMerge(
             "text-secondary hover:text-primary transition duration-200 flex items-center space-x-2 py-2 px-2 rounded-md text-sm"
           )}
@@ -111,3 +112,4 @@ const SidebarHeader = () => {
     </div>
   );
 };
+

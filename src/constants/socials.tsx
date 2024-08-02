@@ -1,10 +1,9 @@
 import {
   IconBrandLinkedin,
-  IconBrandYoutube,
   IconBrandGithub,
   IconPresentationAnalytics,
+  IconLocationBolt
 } from "@tabler/icons-react";
-
 
 
 
@@ -23,5 +22,10 @@ export const socials = [
     href: "https://public.tableau.com/app/profile/dheeraj.atmakuri",
     label: "Tableau Public",
     icon: IconPresentationAnalytics,
+  },
+  {
+    href: "https://public.tableau.com/app/profile/dheeraj.atmakuri",
+    label: "Resume",
+    icon: IconLocationBolt,
   },
 ];
