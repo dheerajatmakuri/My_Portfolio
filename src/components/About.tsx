@@ -6,11 +6,11 @@ export default function About() {
     <div>
       <div className="max-w-5xl">
         <Paragraph className="mt-4">
-          Hey there, I'm Dheeraj Atmakuri 👋
+          Hey there, I am Dheeraj Atmakuri 👋
         </Paragraph>
 
         <Paragraph className="mt-4">
-          I’m pursuing a{" "}
+          I am pursuing a{" "}
           <span className="text-blue-500">
             Master’s in Information Technology and Management
           </span>{" "}

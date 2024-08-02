@@ -9,7 +9,7 @@ export default function Home() {
     <Container>
       <span className="text-4xl">👋</span>
       <Heading className="font-black">
-        Hello there, I'm Dheeraj Atmakuri
+        Hello there, I am Dheeraj Atmakuri
       </Heading>
 
       <br />
