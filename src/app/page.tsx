@@ -31,7 +31,7 @@ export default function Home() {
         as="h2"
         className="font-black text-xl md:text-1.5xl lg:text-3xl mt-7 mb-4"
       >
-        What I'have been working on
+        What I&apos;have been working on
       </Heading>
       <Products />
       <SpeedInsights />
