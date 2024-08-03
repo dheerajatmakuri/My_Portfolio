@@ -3,7 +3,7 @@ export const products = [
     href: "yumrocket-frontend.onrender.com",
     title: "Yum Rocket",
     description:
-      "A Food delivery app built using Mern Stack featuring an admin panel, JWT auth, and Stripe payment integration. This application combines MongoDB, Express.js, React, and Node.js to offer a scalable, secure, and user-friendly solution. ",
+      "A Food Delivery App built with the MERN stack, featuring an admin panel, JWT auth, and Stripe integration. This scalable, secure, and user-friendly solution combines MongoDB, Express.js, React, and Node.js.",
     thumbnail: "/images/yumrocket.png", // Replace with your image path
     stack: ["MongoDB", "ExpressJS", "ReactJS", "NodeJS", "JWT", "Stripe"],
     slug: "yumrocket",
@@ -12,7 +12,7 @@ export const products = [
     href: "https://utdallas.vercel.app/",
     title: "UTD Explorer",
     description:
-      "A responsive React application showcasing the University of Texas at Dallas. Features include detailed program information, a campus gallery, student testimonials, and a contact form. Designed for seamless use across all devices. ",
+      "A Responsive React app showcasing the University of Texas at Dallas. Features include program details, a campus gallery, student testimonials, and a contact form. Designed for seamless use on all devices.",
     thumbnail: "/images/utdfront.png", // Replace with your image path
     stack: ["Reactjs", "Tailwindcss"],
     slug: "utdexplorer",
@@ -21,7 +21,7 @@ export const products = [
     href: "https://public.tableau.com/views/Blinkit_17225251155680/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
     title: "BLINK IT Grocery Delivery App Analysis",
     description:
-    "This responsive dashboard for the BLINKIT Grocery Delivery App highlights ₹1.21M in total sales, an avg rating of 4.39, and snacks as the top category with 8.52K items. Sales in 2019 at over ₹700K, with Zone A leading at ₹423.15K. ",
+    "BLINKIT Grocery Delivery App dashboard shows ₹1.21M in total sales, a 4.39 average rating, and 8.52K snack items. In 2019, sales topped ₹700K, with Zone A leading at ₹423.15K.",
     thumbnail: "/images/blinkit.png", // Replace with your image path
     stack: ["Data Visualization", "Tableau", "Data Analysis",  "Analytics"],
     slug: "blinkit",
@@ -48,7 +48,7 @@ export const products = [
     href: "https://public.tableau.com/views/Netflix_Data_Analysis_17184481523410/NETFLIXDataAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
     title: "Netflix Data Analysis",
     description:
-      "This Tableau dashboard analyzes Netflix's catalog, highlighting global distribution, genre breakdown, ratings, and yearly trends. It reveals top content-producing countries, leading genres offering insights into Netflix's strategy.",
+      "This Tableau dashboard analyzes Netflix’s catalog, highlighting global distribution, genre breakdown, ratings, and yearly trends. It dashboard offers strategic insights.",
     thumbnail: "/images/netflix.png", // Replace with your image path
     stack: ["Reactjs", "Firebase"],
     slug: "netflix",
