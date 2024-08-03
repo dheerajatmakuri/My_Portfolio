@@ -7,7 +7,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home() {
   return (
-    <Container>
+    <Container className="px-4 md:px-8 lg:px-12">
       <span className="text-4xl">👋</span>
       <Heading className="font-black">
         Hello there, I am Dheeraj Atmakuri
@@ -31,7 +31,7 @@ export default function Home() {
         as="h2"
         className="font-black text-xl md:text-1.5xl lg:text-3xl mt-7 mb-4"
       >
-        What I&apos;have been working on
+        What I'have been working on
       </Heading>
       <Products />
       <SpeedInsights />
