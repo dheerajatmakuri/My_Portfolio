@@ -3,7 +3,8 @@ import { Heading } from "@/components/Heading";
 import { Highlight } from "@/components/Highlight";
 import { Paragraph } from "@/components/Paragraph";
 import { Products } from "@/components/Products";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
       </Heading>
       <Products />
       <SpeedInsights />
+      <Analytics/>
     </Container>
   );
 }
