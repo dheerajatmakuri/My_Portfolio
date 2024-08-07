@@ -35,7 +35,8 @@ export const Products = () => {
                 alt="thumbnail"
                 height={200}
                 width={200}
-                className="rounded-md border-4" style={{ borderColor: 'grey' }}
+                className="rounded-md border-4"
+                style={{ borderColor: 'grey' }}
               />
               <div className="flex flex-col justify-between flex-1">
                 <div>
@@ -49,11 +50,11 @@ export const Products = () => {
                     {product.description}
                   </Paragraph>
                 </div>
-                <div className="flex space-x-2 md:mb-1 mt-2 md:mt-0">
+                <div className="flex flex-wrap space-x-2 md:mb-1 mt-2 md:mt-0">
                   {product.stack?.map((stack: string) => (
                     <span
                       key={stack}
-                      className="text-xs md:text-xs lg:text-xs bg-gray-50 px-2 py-1 rounded-sm text-secondary"
+                      className="text-xs md:text-xs lg:text-xs bg-gray-50 px-2 py-1 rounded-sm text-secondary mt-2"
                     >
                       {stack}
                     </span>

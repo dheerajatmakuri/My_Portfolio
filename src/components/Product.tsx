@@ -23,12 +23,12 @@ export const SingleProduct = ({ product }: { product: Product }) => {
         <ArrowLeftIcon className="h-4 w-4 stroke-zinc-500 transition group-hover:stroke-zinc-700" />
       </Link>
       <div className="flex lg:flex-row justify-between items-center flex-col mt-100">
-      <Heading className="font-black mb-2 pb-1"> {product.title}</Heading>
-      <div className="flex space-x-2 md:mb-1 mt-2 md:mt-">
+        <Heading className="font-black mb-2 pb-1"> {product.title}</Heading>
+        <div className="flex flex-wrap space-x-2 md:mb-1 mt-2 md:mt-">
           {product.stack?.map((stack: string) => (
             <span
               key={stack}
-              className="text-xs md:text-xs lg:text-xs bg-gray-50 px-2 py-1 rounded-sm text-secondary"
+              className="text-xs md:text-xs lg:text-xs bg-gray-50 px-2 py-1 rounded-sm text-secondary mt-2"
             >
               {stack}
             </span>
@@ -55,7 +55,7 @@ export const SingleProduct = ({ product }: { product: Product }) => {
           alt="thumbnail"
           height="1000"
           width="1000"
-          className="rounded-md object-contain border-4 border-black"
+          className="rounded-md object-contain border-4 border-black mt-2"
         />
         {/* <div className="absolute bottom-0 bg-white h-40 w-full [mask-image:linear-gradient(to_bottom,transparent,white)]" /> */}
       </motion.div>
