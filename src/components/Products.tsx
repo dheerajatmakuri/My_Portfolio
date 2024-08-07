@@ -7,6 +7,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Paragraph } from "./Paragraph";
 import { motion } from "framer-motion";
+import { IconHandClick } from '@tabler/icons-react';
 
 export const Products = () => {
   return (
@@ -28,7 +29,7 @@ export const Products = () => {
             <Link
               href={product.slug ? `/projects/${product.slug}` : product.href}
               key={product.href}
-              className="group flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 hover:bg-gray-50 rounded-2xl transition duration-200 p-4"
+              className="group flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 hover:bg-gray-50 rounded-2xl transition duration-200 p-4 bg-gray-100"
             >
               <Image
                 src={product.thumbnail}
@@ -50,7 +51,7 @@ export const Products = () => {
                     {product.description}
                   </Paragraph>
                 </div>
-                <div className="flex flex-wrap space-x-2 md:mb-1 mt-2 md:mt-0">
+                <div className="flex flex-wrap items-center space-x-2 md:mb-1 mt-2 md:mt-0">
                   {product.stack?.map((stack: string) => (
                     <span
                       key={stack}
@@ -59,6 +60,7 @@ export const Products = () => {
                       {stack}
                     </span>
                   ))}
+                  <IconHandClick className="w-4 h-4 text-secondary ml-2 mt-2" />
                 </div>
               </div>
             </Link>

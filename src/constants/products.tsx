@@ -42,7 +42,7 @@ export const products = [
       "Built a Netflix clone using React JS, Firebase, and TMDb API, featuring movie/TV show browsing, search, details, trailers, user authentication, and responsive design.",
     thumbnail: "/images/netflixc.png", // Replace with your image path
     stack: ["Reactjs", "Firebase"],
-    slug: "netflix",
+    slug: "netflixc",
   },
   {
     href: "https://public.tableau.com/views/Netflix_Data_Analysis_17184481523410/NETFLIXDataAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
@@ -50,7 +50,7 @@ export const products = [
     description:
       "This Tableau dashboard analyzes Netflix’s catalog, highlighting global distribution, genre breakdown, ratings, and yearly trends. It dashboard offers strategic insights.",
     thumbnail: "/images/netflix.png", // Replace with your image path
-    stack: ["Reactjs", "Firebase"],
+    stack: ["Data Visualization", "Tableau", "Data Analysis",  "Analytics"],
     slug: "netflix",
   },
   {
@@ -69,7 +69,7 @@ export const products = [
       "The Registered Vehicle Management System, using a SQL database, streamlines registration, enhances safety and compliance, reduces manual errors, and improves tracking and reporting for a more organized system.",
     thumbnail: "/images/sql.png", // Replace with your image path
     stack: ["MySQL", "Workbench", "TeamWork",  "Project Planning"],
-    slug: "covid",
+    slug: "rvm",
   },
   {
     href: "https://github.com/dheerajatmakuri/Youtube-Manager-Using-SQLite",
@@ -77,8 +77,8 @@ export const products = [
     description:
       "This Python script provides a simple command-line application to manage YouTube videos using an SQLite database. It lets you list, add, update, and delete video records.",
     thumbnail: "/images/python.png", // Replace with your image path
-    stack: ["Python"],
-    slug: "covid",
+    stack: ["Python", "SQLite3"],
+    slug: "yt",
   },
 
   
