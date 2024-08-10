@@ -73,7 +73,7 @@ export const products = [
   },
   {
     href: "https://github.com/dheerajatmakuri/Youtube-Manager-Using-SQLite",
-    title: "YouTube Manager Using SQLite3",
+    title: "YouTube Manager Using Python, SQLite3",
     description:
       "This Python script provides a simple command-line application to manage YouTube videos using an SQLite database. It lets you list, add, update, and delete video records.",
     thumbnail: "/images/python.png", // Replace with your image path
