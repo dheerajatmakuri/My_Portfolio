@@ -22,11 +22,6 @@ export default function Home() {
         growth and impact millions of lives.
       </Paragraph>
       <Paragraph>
-        At Accenture, I served as a software engineer for over 2 years,
-        specializing in <Highlight>Salesforce.</Highlight> I am proficient in
-        Sales Cloud, Service Cloud, and Lightning Web Components, with a proven
-        track record of delivering custom applications and automation solutions
-        that drive business growth.
       </Paragraph>
       <Heading
         as="h2"
