@@ -4,6 +4,7 @@ import {
   IconPresentationAnalytics,
   IconLocationBolt,
   IconCloud,
+  IconCertificate,
 } from "@tabler/icons-react";
 
 
@@ -30,8 +31,14 @@ export const socials = [
     icon: IconCloud,
   },
   {
-    href: "",
+    href: "https://drive.google.com/drive/folders/1Kp6jjrNZWO24QbJkqPoPGwhgAnyi_enX?usp=drive_link",
     label: "Resume",
     icon: IconLocationBolt,
   },
+  {
+    href: "https://drive.google.com/drive/folders/1r1fQCwg8OcpE7lgJaQPzj-p6vLZLRsV_?usp=drive_link",
+    label: "Certifications",
+    icon: IconCertificate,
+  },
+
 ];
