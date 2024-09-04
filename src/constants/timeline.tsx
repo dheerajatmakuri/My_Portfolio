@@ -35,4 +35,19 @@ export const timeline = [
     ],
 
   },
+
+  {
+    company: "SmartBridge",
+    title: "Salesforce Intern",
+    date: "Mar2021 - Aug2021",
+    description: "Salesforce Administrator",
+    responsibilities: [
+      "Worked as a Salesforce intern, performing a variety of administrative tasks to support business operations.",
+      "Optimized workflows to improve efficiency and productivity.",
+      "Created custom objects tailored to specific business needs. ",
+      "Developed complex Flows to automate processes and reduce manual work.",
+      "Designed and implemented dashboards to provide actionable insights and enhance decision-making.",
+    ],
+
+  },
 ];
