@@ -1,9 +1,8 @@
 export const timeline = [
   {
     company: "Accenture",
-    title: "Application Development Analyst",
+    title: "Salesforce Developer",
     date: "Nov2022 - Dec2023",
-    description: "Salesforce Developer",
     responsibilities: [
       "Assisted in the design and development of Salesforce CRM solutions under senior developers' guidance",
       "Led a team of 2 in developing Salesforce CRM solutions aligned with business requirements",
@@ -21,9 +20,8 @@ export const timeline = [
   },
   {
     company: "Accenture",
-    title: "Application Development Associate",
+    title: "Salesforce Administrator",
     date: "Aug2021 - Oct2022",
-    description: "Salesforce Administrator",
     responsibilities: [
       "Collaborated with stakeholders to define key performance indicators (KPIs) aligned with business goals",
       "Conducted comprehensive assessments by analyzing Salesforce data through reports and dashboards",
@@ -40,7 +38,6 @@ export const timeline = [
     company: "SmartBridge",
     title: "Salesforce Intern",
     date: "Mar2021 - Aug2021",
-    description: "Salesforce Administrator",
     responsibilities: [
       "Worked as a Salesforce intern, performing a variety of administrative tasks to support business operations.",
       "Optimized workflows to improve efficiency and productivity.",

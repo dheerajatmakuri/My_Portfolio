@@ -12,7 +12,7 @@ export const WorkHistory = () => {
     <div>
       {timeline.map((item, index) => (
         <div
-          className="flex md:flex-row flex-col space-y-10 md:space-y-0 space-x-10 my-20 relative"
+          className="flex md:flex-row flex-col space-y-10 md:space-y-0 space-x-10 my-10 relative"
           key={`timeline-${index}`}
         >
           <Paragraph className="w-40">{item.date}</Paragraph>
@@ -26,7 +26,7 @@ export const WorkHistory = () => {
             <Paragraph className="text-base md:text-base lg:text-base font-semibold">
               {item.title}
             </Paragraph>
-            <Paragraph className="text-sm md:text-sm lg:text-sm mb-4">
+            <Paragraph className="text-sm md:text-sm lg:text-sm mb-2">
               {item.description}
             </Paragraph>
 
