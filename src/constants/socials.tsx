@@ -36,7 +36,7 @@ export const socials = [
     icon: IconLocationBolt,
   },
   {
-    href: "https://drive.google.com/drive/folders/1r1fQCwg8OcpE7lgJaQPzj-p6vLZLRsV_?usp=sharing",
+    href: "https://dheerajatmakuri.carrd.co",
     label: "Certifications",
     icon: IconCertificate,
   },
