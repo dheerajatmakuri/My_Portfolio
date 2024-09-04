@@ -26,9 +26,6 @@ export const WorkHistory = () => {
             <Paragraph className="text-base md:text-base lg:text-base font-semibold">
               {item.title}
             </Paragraph>
-            <Paragraph className="text-sm md:text-sm lg:text-sm mb-2">
-              {item.description}
-            </Paragraph>
 
             {item.responsibilities.map((responsibility) => (
               <Step key={responsibility}>{responsibility}</Step>
