@@ -31,7 +31,7 @@ export const socials = [
     icon: IconCloud,
   },
   {
-    href: "https://drive.google.com/file/d/1VPUn5bzlwN9qzzVk2zN4BITGhMcQ56Jw/view?usp=sharing",
+    href: "https://docs.google.com/document/d/1KDwRsZJEIrpiuBo6HSXZT3NSdnTyh-qi/edit?usp=sharing&ouid=117991187330593438424&rtpof=true&sd=true",
     label: "Resume",
     icon: IconLocationBolt,
   },
