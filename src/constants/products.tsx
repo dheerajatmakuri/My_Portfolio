@@ -1,10 +1,19 @@
 export const products = [
   {
+    href: "",
+    title: "CI/CD Pipeline for 3-Tier Application",
+    description: "Designed and implemented a robust CI/CD pipeline leveraging Azure Pipelines and ArgoCD for a 3-tier application, automating the entire build, test, and deployment process. The application, consisting of a Python front-end, Redis for real-time voting, a .NET worker for processing, Postgres for persistent storage, and a Node.js results app, was containerized using Docker. The pipeline utilized Azure Kubernetes Service (AKS) for scalable container orchestration, integrated Azure Container Registry for storing Docker images, and employed Azure VM and Agent Pools to manage resource allocation efficiently. The solution ensured seamless deployment, inter-service communication, and persistent data handling, with GitOps-based continuous delivery facilitated by ArgoCD for managing Kubernetes configurations.",
+    thumbnail: "/images/cicd_pipeline.png",
+    stack: ["Azure Pipelines", "ArgoCD", "Python", "Redis", ".NET", "Postgres", "Node.js", "Docker", "AKS"],
+    slug: "ci-cd-pipeline"
+  },
+  
+  {
     href: "https://yumrocket-frontend.onrender.com",
     title: "Yum Rocket",
     description:
       "A Food Delivery App built with the MERN stack, featuring an admin panel, JWT auth, and Stripe integration. This scalable, secure, and user-friendly solution combines MongoDB, Express.js, React, and Node.js.",
-    thumbnail: "/images/yumrocket.png", // Replace with your image path
+    thumbnail: "/images/yumrocket.png",
     stack: ["MongoDB", "ExpressJS", "ReactJS", "NodeJS", "JWT", "Stripe"],
     slug: "yumrocket",
   },
@@ -12,7 +21,7 @@ export const products = [
     href: "https://utdallas.vercel.app/",
     title: "UTD Explorer",
     description:
-      "A Responsive React app showcasing the University of Texas at Dallas. Features include program details, a campus gallery, student testimonials, and a contact form. Designed for seamless use on all devices.",
+      "Developed a responsive React application showcasing The University of Texas at Dallas, featuring detailed program information, a campus gallery, student testimonials, and a contact form optimized for all devices. Dockerized the application for consistent deployment across environments and deployed the Dockerized application on AWS, ensuring scalability and reliability.",
     thumbnail: "/images/utdfront.png", // Replace with your image path
     stack: ["Reactjs", "Tailwindcss"],
     slug: "utdexplorer",
@@ -34,15 +43,6 @@ export const products = [
     thumbnail: "/images/store.png", // Replace with your image path
     stack: ["Vanillajs", "HTML5", "CSS3", "UI/UX"],
     slug: "store",
-  },
-  {
-    href: "https://netflix-clone-dheeraj.vercel.app/",
-    title: "Netflix Clone",
-    description:
-      "Built a Netflix clone using React JS, Firebase, and TMDb API, featuring movie/TV show browsing, search, details, trailers, user authentication, and responsive design.",
-    thumbnail: "/images/netflixc.png", // Replace with your image path
-    stack: ["Reactjs", "Firebase"],
-    slug: "netflixc",
   },
   {
     href: "https://public.tableau.com/views/Netflix_Data_Analysis_17184481523410/NETFLIXDataAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
