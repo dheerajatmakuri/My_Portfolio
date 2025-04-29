@@ -7,7 +7,14 @@ export const products = [
     stack: ["Azure Pipelines", "ArgoCD", "Python", "Redis", ".NET", "Postgres", "Node.js", "Docker", "AKS"],
     slug: "ci-cd-pipeline"
   },
-  
+  {
+    href: "https://sscutd.vercel.app/",
+    title: "Salesforce Student Chapter UTD Website",
+    description: "Designed and developed the official website for the Salesforce Student Chapter at UTD using React, Vite, and Tailwind CSS. Implemented a modern, responsive design showcasing events, team members, and contact information. Deployed the Dockerized application on AWS to ensure scalability, reliability, and optimal performance.",
+    thumbnail: "/images/ssc.png", // Replace with your actual thumbnail image path
+    stack: ["ReactJS", "Vite", "TailwindCSS", "AWS", "Docker"],
+    slug: "sscutd-website"
+  },
   {
     href: "https://yumrocket-frontend.onrender.com",
     title: "Yum Rocket",
@@ -22,7 +29,7 @@ export const products = [
     title: "UTD Explorer",
     description:
       "Developed a responsive React application showcasing The University of Texas at Dallas, featuring detailed program information, a campus gallery, student testimonials, and a contact form optimized for all devices. Dockerized the application for consistent deployment across environments and deployed the Dockerized application on AWS, ensuring scalability and reliability.",
-    thumbnail: "/images/utdfront.png", // Replace with your image path
+    thumbnail: "/images/utdfront.png",
     stack: ["Reactjs", "Tailwindcss"],
     slug: "utdexplorer",
   },
@@ -31,7 +38,7 @@ export const products = [
     title: "BLINK IT Grocery Delivery App Analysis",
     description:
     "BLINKIT Grocery Delivery App dashboard shows ₹1.21M in total sales, a 4.39 average rating, and 8.52K snack items. In 2019, sales topped ₹700K, with Zone A leading at ₹423.15K.",
-    thumbnail: "/images/blinkit.png", // Replace with your image path
+    thumbnail: "/images/blinkit.png",
     stack: ["Data Visualization", "Tableau", "Data Analysis",  "Analytics"],
     slug: "blinkit",
   },
@@ -40,7 +47,7 @@ export const products = [
     title: "Ecommerce Store",
     description:
       "Developed a responsive ecommerce store using HTML, CSS, and JavaScript, featuring a user-friendly interface, dynamic product listings, and seamless cart functionality. ",
-    thumbnail: "/images/store.png", // Replace with your image path
+    thumbnail: "/images/store.png",
     stack: ["Vanillajs", "HTML5", "CSS3", "UI/UX"],
     slug: "store",
   },
@@ -49,16 +56,16 @@ export const products = [
     title: "Netflix Data Analysis",
     description:
       "This Tableau dashboard analyzes Netflix’s catalog, highlighting global distribution, genre breakdown, ratings, and yearly trends. It dashboard offers strategic insights.",
-    thumbnail: "/images/netflix.png", // Replace with your image path
+    thumbnail: "/images/netflix.png",
     stack: ["Data Visualization", "Tableau", "Data Analysis",  "Analytics"],
     slug: "netflix",
   },
   {
     href: "https://public.tableau.com/views/WorkplaceMobilityvs_COVID-19CasesinTexas/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
-    title: "Texas Mobility Reports Anaysis Using Tableau",
+    title: "Texas Mobility Reports Analysis Using Tableau",
     description:
       "This project examines the impact of COVID-19 policies on human mobility in Texas counties using Google's anonymized data. It aims to understand behavioral changes due to these measures, informing future policy decisions.",
-    thumbnail: "/images/covid.png", // Replace with your image path
+    thumbnail: "/images/covid.png",
     stack: ["Data Visualization", "Tableau", "Data Analysis",  "Analytics"],
     slug: "covid",
   },
@@ -67,7 +74,7 @@ export const products = [
     title: "Registered Vehicle Management System using SQL",
     description:
       "The Registered Vehicle Management System, using a SQL database, streamlines registration, enhances safety and compliance, reduces manual errors, and improves tracking and reporting for a more organized system.",
-    thumbnail: "/images/sql.png", // Replace with your image path
+    thumbnail: "/images/sql.png",
     stack: ["MySQL", "Workbench", "TeamWork",  "Project Planning"],
     slug: "rvm",
   },
@@ -76,11 +83,8 @@ export const products = [
     title: "YouTube Manager Using Python, SQLite3",
     description:
       "This Python script provides a simple command-line application to manage YouTube videos using an SQLite database. It lets you list, add, update, and delete video records.",
-    thumbnail: "/images/python.png", // Replace with your image path
+    thumbnail: "/images/python.png",
     stack: ["Python", "SQLite3"],
     slug: "yt",
-  },
-
-  
-  
+  }
 ];
