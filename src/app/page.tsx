@@ -11,7 +11,7 @@ export default function Home() {
     <Container className="px-4 md:px-8 lg:px-12">
       <span className="text-4xl">👋</span>
       <Heading className="font-black">
-        Hi, I'm Dheeraj Atmakuri
+        Hello there, I am Dheeraj Atmakuri
       </Heading>
 
       <br />
@@ -19,19 +19,17 @@ export default function Home() {
         I am a passionate <Highlight>Cloud & DevOps Engineer</Highlight> with strong expertise in 
         <Highlight> AWS, Azure, Kubernetes, Salesforce, and Python automation</Highlight>. I specialize in designing scalable infrastructures, automating deployments, and delivering solutions that enhance operational efficiency and system reliability.
       </Paragraph>
-      <Paragraph className="mb-4">
-        I enjoy building <Highlight>CI/CD pipelines, cloud-native applications, web platforms, and data-driven solutions</Highlight> that create meaningful business impact.
+      <Paragraph>
       </Paragraph>
-
       <Heading
         as="h2"
         className="font-black text-xl md:text-1.5xl lg:text-3xl mt-7 mb-4"
       >
-        What I&apos;ve been working on
+        What I&apos;have been working on
       </Heading>
       <Products />
       <SpeedInsights />
-      <Analytics />
+      <Analytics/>
     </Container>
   );
 }
